@@ -1,0 +1,118 @@
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    padding: 5px;
+    border-style: groove;
+    border-radius: 15px;
+}
+
+body {
+    background-color: #b7b7b6;
+}
+
+div {
+    display: inline-block;
+    padding: 1%;
+}
+
+h1 {
+    background-image: url("spanjaardsgat.jpg");
+    background-position: center;
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    font-size: 125px;
+    color: #bc7b1f;
+    font-family: 'Roboto Mono', monospace;
+    display: inline-block;
+}
+
+.header {
+    background-color: #31222e;
+    padding: 15px;
+    text-align: center;
+}
+
+.col-2 {
+    background-color: #71889f;
+}
+
+.col-9 {
+    background-color: #95a0b0;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    max-width: 50%;
+    max-height: 400px;
+    padding: 1%;
+    float: right;
+}
+
+.tekst {
+    background-color: #37496d;
+}
+
